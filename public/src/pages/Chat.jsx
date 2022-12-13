@@ -7,6 +7,7 @@ import Contacts from "../components/Contacts";
 import Welcome from "../components/Welcome";
 import ChatContainer from "../components/ChatContainer";
 import { io } from "socket.io-client";
+// import "../components/Contacts.css";
 
 function Chat() {
   const socket = useRef();
@@ -91,9 +92,9 @@ const Container = styled.div`
     background-color: #00000076;
     display: grid;
     grid-template-columns: 25% 75%;
-    @media screen and (min-width: 720px) and (max-width: 1080px) {
-      grid-template-columns: 35% 65%;
-    }
+    // @media screen and (min-width: 720px) and (max-width: 1080px) {
+    //   grid-template-columns: 35% 65%;
+    // }
   }
 `;
 

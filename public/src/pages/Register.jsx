@@ -87,7 +87,12 @@ function Register() {
         <form onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
             <img src={Logo} alt="Logo" />
-            <h1>snappy</h1>
+            <h1>
+              {" "}
+              <i>
+                C<small>hat</small> I<small>t</small>
+              </i>
+            </h1>
           </div>
           <input
             type="text"
@@ -146,6 +151,16 @@ const FormContainer = styled.div`
       text-transform: uppercase;
     }
   }
+  @media screen and (max-width: 530px) and (min-width: 280px) {
+    form {
+      margin: 0 100px 0 100px !important;
+    }
+  }
+    @media screen and (min-width:280px){
+        form{
+          margin:0 150px 0 150px !important;
+        }
+      }
   form {
     display: flex;
     flex-direction: column;

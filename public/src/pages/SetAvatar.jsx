@@ -153,6 +153,7 @@ const Container = styled.div`
       border: 0.4rem solid #4e0eff;
     }
   }
+  
   .submit-btn {
     background-color: #997af0;
     color: white;
@@ -168,4 +169,8 @@ const Container = styled.div`
       background-color: #4e0eff;
     }
   }
+  // @media screen and (max-width: 600px) {
+  //   .avatars {
+  //   }
+  // }
 `;

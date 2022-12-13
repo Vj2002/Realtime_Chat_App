@@ -9,6 +9,10 @@ require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static("public/public"));
+app.get("/favicon.ico", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "/favicon.ico"));
+});
 
 app.use("/api/auth", userRoutes);
 app.use("/api/messages", messageRoute);
