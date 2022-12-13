@@ -39,7 +39,7 @@ const io = socket(server, {
   cors: {
     origin: "http://localhost:3000",
     // origin: "https://chat-it.onrender.com/",
-    credentials: false,
+    credentials: true,
   },
 });
 
