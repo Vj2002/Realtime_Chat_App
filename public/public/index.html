@@ -3,11 +3,17 @@
   <head>
     <!-- <meta
       http-equiv="Content-Security-Policy"
-      content="font-src 'self' data:; img-src 'self' data:; default-src 'self' https://vj-chat-app.herokuapp.com/"
+      content="font-src 'self' data:; img-src 'self' data:; default-src 'self' http://121.0.0:3000/"
     /> -->
     <!-- <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; font-src 'self' data: fonts.gstatic.com;"
+      content="font-src 'self' data:; img-src 'self' data:; default-src 'self' https://vj-chat-app.herokuapp.com/"
+    /> -->
+    <!-- Content-Security-Policy: default-src 'self';font-src fonts.gstatic.com;style-src 'self' fonts.googleapis.com -->
+
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src *; font-src *;style-src * data: fonts.googleapis.com;"
     /> -->
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
