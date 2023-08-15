@@ -230,7 +230,8 @@
 }
 
 .current-user {
-  background-color: #d5ffd0;
+  background-color: #0d0d30;
+/*   background-color: #8cabff; */
   display: flex;
   justify-content: center;
   align-items: center;
