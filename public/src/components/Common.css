@@ -175,8 +175,8 @@
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-/*   background-color: #080420; */
-  background-color:  #4e0eff;
+  background-color: #080420;
+/*   background-color:  #4e0eff; */
 }
 .brand {
   display: flex;
@@ -230,7 +230,7 @@
 }
 
 .current-user {
-  background-color: #0d0d30;
+  background-color: #9a86f3;
   display: flex;
   justify-content: center;
   align-items: center;
