@@ -175,7 +175,8 @@
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: #080420;
+/*   background-color: #080420; */
+  background-color:  #4e0eff;
 }
 .brand {
   display: flex;
